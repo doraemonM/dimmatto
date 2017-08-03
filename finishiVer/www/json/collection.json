@@ -1,0 +1,26 @@
+[
+        {
+            "banners" : "/images/collection/banner",
+            "stylename" : "2016 S/S COLLECTION1"
+        },
+        {
+            "banners" : "/images/collection/banner",
+            "stylename" : "2016 S/S COLLECTION2"
+        },
+        {
+            "banners" : "/images/collection/banner",
+            "stylename" : "2016 F/W COLLECTION1"
+        },
+        {
+            "banners" : "/images/collection/banner",
+            "stylename" : "2016 F/W COLLECTION2"
+        },
+        {
+            "banners" : "/images/collection/banner",
+            "stylename" : "2017 S/S COLLECTION1"
+        },
+        {
+            "banners" : "/images/collection/banner",
+            "stylename" : "2017 S/S COLLECTION2"
+        }
+]

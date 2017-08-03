@@ -1,0 +1,497 @@
+<!doctype html>
+<html lang="ko">
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
+        <meta name="viewport" content="width=1280" />
+        <meta name="robots" content="All, index,follow" />
+        <meta name="format-detection" content="telephone=no">
+        <meta name="Descript-xion" content="Dimatto- Pick your style" />
+        <meta name="Keywords" content="쇼핑몰,동대문" />
+        <link rel="stylesheet" href="../css/common.css">
+        <link rel="stylesheet" href="../css/slick.css">
+        <link rel="stylesheet" href="../css/main.css">
+
+    </head>
+
+    <body>  
+        <div id="wrap">
+            <div class="gnbPop">
+                <a href="#" class="closeBtn"><img src="../images/gnbClosed.png" alt="" /></a>
+                <ul class="gnbList">
+                    <li><a href="#brandPop">BRAND</a></li>
+                    <li><a href="#stylepickPop">STYLE PICK</a></li>
+                    <li><a href="#collectionPop">COLLECTION</a></li>
+                    <li><a href="#webzinPop">WEB ZINE</a></li>
+                    <li><a href="#newsPop">NEWS</a></li>                     
+                </ul>
+                <div>
+                    <a href="#"><img src="../images/facebook.png" alt="" /></a>
+                    <a href="#"><img src="../images/instagram.png" alt="" /></a>
+                </div>
+                <p>
+                    <a href="#">STILEDIMATTO</a>
+                </p>
+            </div>
+            <div class="stylepickPop">                 
+                <a href="#" class="closeBtn">x</a>
+                <h2>스타일픽</h2>
+                <iframe src="../html/share.html" frameborder="0"></iframe>
+                
+                 <a href="#" onclick="javascript:sendSns('facebook', window.location.href, 
+                            'dimatto :: Unique street styles'); return false;">324234</a>
+                <div class="stylepick_list_slider">
+                    <div><a href="#1" id="style01">1</a></div>
+                    <div><a href="#2" id="style02">2</a></div>
+                    <div><a href="#3" id="style03">3</a></div>    
+                    <div><a href="#4" id="style04">4</a></div>
+                    <div><a href="#5" id="style05">5</a></div>
+                    <div><a href="#6" id="style06">6</a></div>
+                </div>
+                <div class="styleContents">
+                    <div class="on">1</div>
+                    <div>2</div>
+                    <div>3</div>
+                    <div>4</div>
+                    <div>5</div>
+                    <div>6</div>                    
+                </div>
+            </div>
+            <div class="newsPop">                 
+                <a href="#" class="closeBtn">x</a>
+                <h2>뉴스</h2>
+                <div class="news_list_slider">
+                    <div><a href="#1" id="news01">1</a></div>
+                    <div><a href="#2" id="news02">2</a></div>
+                    <div><a href="#3" id="news03">3</a></div>    
+                    <div><a href="#4" id="news04">4</a></div>
+                    <div><a href="#5" id="news05">5</a></div>
+                    <div><a href="#6" id="news06">6</a></div>
+                </div>
+                <div class="newsContents">
+                    <div class="on">1</div>
+                    <div>2</div>
+                    <div>3</div>
+                    <div>4</div>
+                    <div>5</div>
+                    <div>6</div>                    
+                </div>
+            </div>
+            <div class="lines">
+
+            </div>
+            <div class="mainTop viewCheck ">               
+                <button class="gnbBtn"><img src="../images/gnbBtn.png" alt="gnb버튼" /></button>
+                <h1>
+                    <img class="action" src="../images/logoAction.png" alt="" />
+                    <img class="action2" src="../images/logo.png" alt="dimatto-pick your style" />
+                </h1>
+                <div class="leftBanner">
+                    <img src="../images/mainBanner01.png" alt="" />
+                </div>
+                <div class="rightBanner">
+                    <h2>
+                        <img src="../images/mainRightHead.png" alt="New arrival" />
+                    </h2>
+                    <div class="sliderCurrent">
+                        <p class="current"></p>
+                        <p class="kiho">/</p>
+                        <p class="sliderLength"></p>
+                    </div>
+                    <div class="right-slider">
+                        <div><img src="../images/right-slider01.jpg" alt="" /></div>
+                        <div><img src="../images/right-slider01.jpg" alt="" /></div>
+                        <div><img src="../images/right-slider01.jpg" alt="" /></div>
+                        <div><img src="../images/right-slider01.jpg" alt="" /></div> 
+                        <div><img src="../images/right-slider01.jpg" alt="" /></div> 
+                    </div>
+
+                </div>
+            </div>
+            <div id="container">
+                <div class="viewCheck news">
+                    <h2 class="actionWrap">
+                        <img class="action1" src="../images/news_arrow01.png" alt="" />
+                        <span>
+                            <img src="../images/containerHead01.png" alt="dimatto news" />
+                        </span>
+                        <img class="action2" src="../images/news_arrow02.png" alt="" />
+                    </h2>
+                    <div class="viewCheck news_pop">
+                        <div class="news_con01">
+                            <img src="../images/new01.jpg" alt="" />
+                            <div class="textArea">
+                                <h3>AD STORY</h3>
+                                <p>영화’판도라’ 여주인공 ‘김주현’ 화보 블라블라블라블라블라블라...</p>
+                                <a href="#news01" class="onoffHover"><img src="../images/readmore_off.png" alt="read more" /></a>
+                            </div>
+                        </div>
+                        <div class="news_con02">
+                            <div class="videoArea">
+                                <video id="introVideo" preload="auto">
+                                    <source src="../video/dimatto_60v2.mp4" type="video/mp4" />     
+                                    <div class="novideo"><img src="../images/img_intro.png" alt=""></div>
+                                </video>      
+                            </div>
+                            <div class="textArea">                                 
+                                <a href="#news02" class="onoffHover"><img src="../images/readmore_off.png" alt="read more" /></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="viewCheck stylepick">
+                    <div class="styleList actionWrap">
+                        <h2>
+                            <img class="action2" src="../images/containerHead02.png" alt="style pick" />
+                        </h2>
+                        <ul class="stylepick_pop">
+                            <li>
+                                <a href="#style06" class="onoffHover"><img src="../images/styleListPop_off.png" alt="" /></a>
+                                <div class="styleLists">
+                                    <div class="img">
+                                        <img src="../images/stylePick01.png" alt="" />
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="media2">
+                                <a href="#style02" class="onoffHover"><img src="../images/styleListPop_off.png" alt="" /></a>
+                                <div class="styleLists">
+                                    <div class="img">
+                                        <img src="../images/stylePick02.png" alt="" />
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="media1">
+                                <a href="#style05" class="onoffHover"><img src="../images/styleListPop_off.png" alt="" /></a>
+                                <div class="styleLists">
+                                    <div class="img">
+                                        <img src="../images/stylePick03.png" alt="" />
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                        <div class="textArea">
+                            <h3>COZY WARM</h3>
+                            <p>Warm and diversely charming knitwear items sfdfsgagadgasdga...</p>
+                            <a href="#" class="onoffHover"><img src="../images/readmore_off.png" alt="read more" /></a>
+                        </div>
+                    </div>                 
+                    <div class="modelView actionWrap">                       
+                        <img class="action1" src="../images/stylepickIcon.png" alt="" />
+                        <img class="over" src="../images/stylepickModel.png" alt="" />                       
+                    </div>
+                </div>
+                <div class="viewCheck collection">
+                    <h2 class="actionWrap">
+                        <img class="action1" src="../images/collection_arrow01.png" alt="" />
+                        <span>
+                            <img src="../images/containerHead03.png" alt="dimatto news" />
+                        </span>
+                        <img class="action2" src="../images/collection_arrow02.png" alt="" />
+                    </h2>
+                    <div class="viewCheck">
+                        <div class="collection_con01">
+                            <div class="videoArea">
+                                <video id="collectionVideo" preload="auto">
+                                    <source src="../video/details33.mp4" type="video/mp4" />     
+                                    <div class="novideo"><img src="../images/img_collection.png" alt=""></div>
+                                </video>      
+                            </div>
+                            <div class="textArea">
+                                <h3>STYLING</h3>
+                                <p>minimal checkered one piece abcdefg....</p>
+                                <a href="#" class="onoffHover"><img src="../images/readmore_off.png" alt="read more" /></a>
+                            </div>
+                        </div>
+                        <div class="collection_con02">
+                            <div class="right">
+                                <a href="#">
+                                    <img class="action" src="../images/collenction.jpg" alt="" />
+                                    <div class="white-dimmed">
+                                        <img src="../images/dimmedText.png" alt="readmore" />
+                                    </div>
+                                </a>
+                            </div>                           
+                        </div>
+
+                    </div>
+                </div>  
+                <div class="viewCheck webzine">
+                    <div class="actionWrap">
+                        <h2><img  class="action" src="../images/containerHead04.png" alt="WEB ZINE" /></h2>
+                    </div>                    
+                    <a href="#" class="webzine_cover">
+                        <div>
+                            <img class="action" src="../images/webzine.jpg" alt="" />
+                            <div class="white-dimmed">
+                                <img src="../images/dimmedText.png" alt="readmore" />
+                            </div>
+                        </div>
+                    </a>                    
+                </div>
+                <div class="viewCheck brand"> 
+                    <div class="brandWrapper">
+                    <div class="actionWrap">
+                       <p class="ab"><img src="../images/brand01.jpg" alt="" /></p>
+                       <p class="st"><img src="../images/brand02.jpg" alt="" /></p>
+                        <div class="textArea">
+                            <h3>Real-time broadcast of the latest fashion Trend </h3>
+                            <p>Dimatto is all about wearable fashion for women.<br>
+                                We offer the latest trends blended with basic and daily items.<br>
+                                Whether if you are roaming the city streets, chilling at a trendy café,<br>
+                                or heading to the airport, it all comes down to “real” fashion. </p>
+                            <a href="#" class="onoffHover"><img src="../images/readmore_off.png" alt="read more" /></a>
+                        </div>
+                    </div>
+                    </div>   
+                </div>
+                <div class="viewCheck bottomWrap">
+                    <div class="bottomSlider">
+                        <div class="styleList">
+                            <div class="lists">
+                                <a href="#" class="onoffHover"><img src="../images/styleListPop_off.png" alt="" /></a>
+                                <div class="styleLists">
+                                    <div class="img">
+                                        <img src="../images/bottomSlider01.png" alt="" />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="lists">
+                                <a href="#" class="onoffHover"><img src="../images/styleListPop_off.png" alt="" /></a>
+                                <div class="styleLists">
+                                    <div class="img">
+                                        <img src="../images/bottomSlider02.png" alt="" />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="lists">
+                                <a href="#" class="onoffHover"><img src="../images/styleListPop_off.png" alt="" /></a>
+                                <div class="styleLists">
+                                    <div class="img">
+                                        <img src="../images/bottomSlider03.png" alt="" />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="lists">
+                                <a href="#" class="onoffHover"><img src="../images/styleListPop_off.png" alt="" /></a>
+                                <div class="styleLists">
+                                    <div class="img">
+                                        <img src="../images/bottomSlider04.png" alt="" />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="lists">
+                                <a href="#" class="onoffHover"><img src="../images/styleListPop_off.png" alt="" /></a>
+                                <div class="styleLists">
+                                    <div class="img">
+                                        <img src="../images/bottomSlider05.png" alt="" />
+                                    </div>
+                                </div>
+                            </div>
+                             <div class="lists">
+                                <a href="#" class="onoffHover"><img src="../images/styleListPop_off.png" alt="" /></a>
+                                <div class="styleLists">
+                                    <div class="img">
+                                        <img src="../images/bottomSlider06.png" alt="" />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="lists">
+                                <a href="#" class="onoffHover"><img src="../images/styleListPop_off.png" alt="" /></a>
+                                <div class="styleLists">
+                                    <div class="img">
+                                        <img src="../images/bottomSlider07.png" alt="" />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="lists">
+                                <a href="#" class="onoffHover"><img src="../images/styleListPop_off.png" alt="" /></a>
+                                <div class="styleLists">
+                                    <div class="img">
+                                        <img src="../images/bottomSlider08.png" alt="" />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="lists">
+                                <a href="#" class="onoffHover"><img src="../images/styleListPop_off.png" alt="" /></a>
+                                <div class="styleLists">
+                                    <div class="img">
+                                        <img src="../images/bottomSlider09.png" alt="" />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="lists">
+                                <a href="#" class="onoffHover"><img src="../images/styleListPop_off.png" alt="" /></a>
+                                <div class="styleLists">
+                                    <div class="img">
+                                        <img src="../images/bottomSlider10.png" alt="" />
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+
+                    </div>                    
+                </div>
+
+
+            </div>
+            <div id="footer">
+                <a href="#" class="topBtn"><img src="../images/topButton.png" alt="" /></a>
+                <h2><a href="#"><img src="../images/footerLogo.png" alt="dimatto" /></a></h2>
+                <p>
+                    <span>CG Inc.</span>
+                    <span>대표 : 오승범</span>
+                    <span>사업자등록번호 : No. 431-88-00293</span>
+                    <span>서울 종로구 종로328(창신동330-1) 동대문 빌딩8,9층</span>                                       
+                </p>
+                <p>
+                    <span>고객센터 : +82-708-7474</span>
+                    <span>E-mail : help@dcgworld.com</span>
+                    <span>통신판매업신고번호 : 2016-서울종로-0690</span>
+                    <span>Copyright©2016 DCG All rights reserved.</span>
+                </p>
+            </div>
+
+        </div>
+
+
+        <script type="text/javascript" src="../js/jquery-latest.js"></script>
+        <script src="../js/TimelineLite.js" type="text/javascript"></script>
+        <script src="../js/TweenMax.js" type="text/javascript"></script>
+        <script src="../js/plugins/CSSPlugin.js" type="text/javascript"></script>
+        <script src="../js/plugins/EasePack.js" type="text/javascript"></script>
+        <script src="../js/jquery.gsap.js" type="text/javascript"></script>
+        <script src="../js/slick.min.js" type="text/javascript"></script>
+        <script type="text/javascript" src="../js/main.js"></script>
+        <script type="text/javascript">
+
+            $(function () {
+                //메인배경
+                $('body').addClass('mainBg')
+                $.uiExe.main.init();
+                $.uiExe.subPopup.init();
+               
+            })
+
+            $(window).on('load', function () {
+                $(this).trigger('scroll');
+                $(this).trigger('resize')
+            })
+
+            $(window).on('scroll', function () {
+                $('#container').viewPort();
+            })
+
+            $(window).on('resize', function () {
+                var thisW = $(this).width();
+                thisW > 1280 ?
+                        $('.lines').css('left', (-(1903 - $(window).width()) / 2) + 'px')
+                        : $('.lines').css('left', '-306px')
+            })
+            function reload(){
+                 var initialPage = location.pathname;
+                   return    location.replace('http://www.facebook.com/sharer/sharer.php?u=' + initialPage);
+                    }
+            
+              function sendSns(sns, url, txt)
+                {
+                    var o;
+                    var _url = encodeURIComponent(url);
+                    var _txt = encodeURIComponent(txt);
+                    var _br = encodeURIComponent('\r\n');
+
+                    switch (sns)
+                    {
+                        case 'facebook':
+                            o = {
+                                method: 'popup',
+                                url: 'http://www.facebook.com/sharer/sharer.php?u=' + _url
+                            };
+                            break;
+
+                        case 'sendSns':
+                            o = {
+                                method: 'popup',
+                                url: 'http://twitter.com/intent/tweet?text=' + _txt + '&url=' + _url
+                            };
+                            break;
+
+                        case 'me2day':
+                            o = {
+                                method: 'popup',
+                                url: 'http://me2day.net/posts/new?new_post[body]=' + _txt + _br + _url + '&new_post[tags]=epiloum'
+                            };
+                            break;
+
+                        case 'kakaotalk':
+                            o = {
+                                method: 'web2app',
+                                param: 'sendurl?msg=' + _txt + '&url=' + _url + '&type=link&apiver=2.0.1&appver=2.0&appid=dev.epiloum.net&appname=' + encodeURIComponent('Epiloum 개발노트'),
+                                a_store: 'itms-apps://itunes.apple.com/app/id362057947?mt=8',
+                                g_store: 'market://details?id=com.kakao.talk',
+                                a_proto: 'kakaolink://',
+                                g_proto: 'scheme=kakaolink;package=com.kakao.talk'
+                            };
+                            break;
+
+                        case 'kakaostory':
+                            o = {
+                                method: 'web2app',
+                                param: 'posting?post=' + _txt + _br + _url + '&apiver=1.0&appver=2.0&appid=dev.epiloum.net&appname=' + encodeURIComponent('Epiloum 개발노트'),
+                                a_store: 'itms-apps://itunes.apple.com/app/id486244601?mt=8',
+                                g_store: 'market://details?id=com.kakao.story',
+                                a_proto: 'storylink://',
+                                g_proto: 'scheme=kakaolink;package=com.kakao.story'
+                            };
+                            break;
+
+                        case 'band':
+                            o = {
+                                method: 'web2app',
+                                param: 'create/post?text=' + _txt + _br + _url,
+                                a_store: 'itms-apps://itunes.apple.com/app/id542613198?mt=8',
+                                g_store: 'market://details?id=com.nhn.android.band',
+                                a_proto: 'bandapp://',
+                                g_proto: 'scheme=bandapp;package=com.nhn.android.band'
+                            };
+                            break;
+
+                        default:
+                            alert('지원하지 않는 SNS입니다.');
+                            return false;
+                    }
+
+                    switch (o.method)
+                    {
+                        case 'popup':
+                            window.open(o.url);
+                            break;
+
+                        case 'web2app':
+                            if (navigator.userAgent.match(/android/i))
+                            {
+                                // Android
+                                setTimeout(function () {
+                                    location.href = 'intent://' + o.param + '#Intent;' + o.g_proto + ';end'
+                                }, 100);
+                            } else if (navigator.userAgent.match(/(iphone)|(ipod)|(ipad)/i))
+                            {
+                                // Apple
+                                setTimeout(function () {
+                                    location.href = o.a_store;
+                                }, 200);
+                                setTimeout(function () {
+                                    location.href = o.a_proto + o.param
+                                }, 100);
+                            } else
+                            {
+                                alert('이 기능은 모바일에서만 사용할 수 있습니다.');
+                            }
+                            break;
+                    }
+                }
+
+        </script>
+    </body>
+</html>

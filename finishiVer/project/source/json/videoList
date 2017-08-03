@@ -1,0 +1,60 @@
+[
+        {
+            "detailMain" : "/images/product/product_banner",
+            "detailHead": "양털 더블 코트 사고싶어요~",
+            "detailColor" : [
+                "/images/product/product01",
+                "/images/product/product02",
+                "/images/product/product03"
+            ],
+            "detailLink": "http://dimatto.com/kr/pc/html/details31.html",
+            "detailRelative" : "http://dcgworld.dimatto.dev/?layer=2:1",  
+            "detailImg01":  "/images/product/product_detail01",
+            "detailImg02":  "/images/product/product_detail02",
+            "detailImg03":  "/images/product/product_detail03",
+            "detailImg04":  "/images/product/product_detail04"
+        
+               
+        },
+        {
+            "detailHead": "쉬폰 포인트 플라워 원피스2",
+            "detailColor" :[
+                "/images/product/product01",
+                "/images/product/product02",
+                "/images/product/product03",
+                "/images/product/product03"
+            ],
+            "detailLink": "http://dimatto.com/kr/pc/html/details31.html",
+            "detailRelative" : "http://dcgworld.dimatto.dev/?layer=2:4",  
+            "detailImg01":  "/images/product/product_detail01",
+            "detailImg02":  "/images/product/product_detail02",
+            "detailImg03":  "/images/product/product_detail03",
+            "detailImg04":  "/images/product/product_detail04"
+        },
+        {
+            "detailHead": "쉬폰 포인트 플라워 원피스3",
+            "detailColor" :[
+                "/images/product/product01",
+                "/images/product/product02"
+            ],
+            "detailLink": "http://dimatto.com/kr/pc/html/details31.html",
+            "detailRelative" : "http://dcgworld.dimatto.dev/?layer=3:1",  
+            "detailImg01":  "/images/product/product_detail01",
+            "detailImg02":  "/images/product/product_detail02",
+            "detailImg03":  "/images/product/product_detail03",
+            "detailImg04":  "/images/product/product_detail04"
+        },
+        {
+            "detailHead": "쉬폰 포인트 플라워 원피스4",
+            "detailColor" :[
+                "/images/product/product03",
+                "/images/product/product01"
+            ],
+            "detailLink": "http://dimatto.com/kr/pc/html/details31.ht;ml",
+            "detailRelative" : "http://dcgworld.dimatto.dev/?layer=5:1",  
+            "detailImg01":  "/images/product/product_detail01",
+            "detailImg02":  "/images/product/product_detail02",
+            "detailImg03":  "/images/product/product_detail03",
+            "detailImg04":  "/images/product/product_detail04"
+        }
+    ]

@@ -1,0 +1,10 @@
+#container h4.title {margin-left: 11px; margin-top:20px;}
+#container .searchForm {width:1000px; margin:auto; margin-top:10px;}
+#container .searchForm .btn_group{margin-top:10px;}
+#container .searchForm .btn_group .btn{padding:8px; display:block; margin:auto;}
+#container .search_list{width:1000px; margin:auto;}
+#container table.table{margin:auto;}
+#container table.table thead tr th{text-align:center;}
+#container table.table tbody tr td .btn{text-align:center;}
+#container div.paging {text-align:center;}
+

@@ -1,0 +1,74 @@
+[
+        {
+            "detailMain" : "/m/images/product/product_banner",
+            "detailHead": "양털 더블 코트 사고싶어요~",
+            "detailColor" : [
+                "/m/images/product/product01",
+                "/m/images/product/product02",
+                "/m/images/product/product03"
+            ],
+            "detailBuy" : "구매하기",
+            "detailLinkText" : "관련 컨텐츠 보기",
+            "detailLink": "http://m.dimatto.com/kr/pc/html/details31.html",
+            "detailRelative" : "http://m.dcgworld.dimatto.dev/?layer=2:1",  
+            "detailImg01":  "/m/images/product/product_detail01",
+            "detailImg02":  "/m/images/product/product_detail02",
+            "detailImg03":  "/m/images/product/product_detail03",
+            "detailImg04":  "/m/images/product/product_detail04",
+            "detailVideoM" : "/video/details33.mp4"
+               
+        },
+        {
+            "detailMain" : "/m/images/product/product_detail02",
+            "detailHead": "쉬폰 포인트 플라워 원피스2",
+            "detailColor" :[
+                "/m/images/product/product01",
+                "/m/images/product/product02",
+                "/m/images/product/product03",
+                "/m/images/product/product03"
+            ],
+            "detailBuy" : "구매하기",
+            "detailLinkText" : "관련 컨텐츠 보기",
+            "detailLink": "http://m.dimatto.com/kr/pc/html/details31.html",
+            "detailRelative" : "http://m.dcgworld.dimatto.dev/?layer=2:4",  
+            "detailImg01":  "/m/images/product/product_detail01",
+            "detailImg02":  "/m/images/product/product_detail02",
+            "detailImg03":  "/m/images/product/product_detail03",
+            "detailImg04":  "/m/images/product/product_detail04",
+            "detailVideoM" : "/video/details35.mp4"
+        },
+        {   
+            "detailMain" : "/m/images/product/product_detail03",
+            "detailHead": "쉬폰 포인트 플라워 원피스3",
+            "detailColor" :[
+                "/m/images/product/product01",
+                "/m/images/product/product02"
+            ],
+            "detailBuy" : "구매하기",
+            "detailLinkText" : "관련 컨텐츠 보기",
+            "detailLink": "http://m.dimatto.com/kr/pc/html/details31.html",
+            "detailRelative" : "http://m.dcgworld.dimatto.dev/?layer=3:1",  
+            "detailImg01":  "/m/images/product/product_detail01",
+            "detailImg02":  "/m/images/product/product_detail02",
+            "detailImg03":  "/m/images/product/product_detail03",
+            "detailImg04":  "/m/images/product/product_detail04",
+            "detailVideoM" : "/video/details34.mp4"
+        },
+        {
+            "detailMain" : "/m/images/product/product_detail04",
+            "detailHead": "쉬폰 포인트 플라워 원피스4",
+            "detailColor" :[
+                "/m/images/product/product03",
+                "/m/images/product/product01"
+            ],
+            "detailBuy" : "구매하기",
+            "detailLinkText" : "관련 컨텐츠 보기",
+            "detailLink": "http://m.dimatto.com/kr/pc/html/details31.ht;ml",
+            "detailRelative" : "http://m.dcgworld.dimatto.dev/?layer=5:1",  
+            "detailImg01":  "/m/images/product/product_detail01",
+            "detailImg02":  "/m/images/product/product_detail02",
+            "detailImg03":  "/m/images/product/product_detail03",
+            "detailImg04":  "/m/images/product/product_detail04",
+            "detailVideoM" : "/video/dimatto_60v2.mp4"
+        }
+    ]
