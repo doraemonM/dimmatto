@@ -1,0 +1,70 @@
+{
+    "kr": [
+        {
+            "detailHead": "쉬폰 포인트 플라워 원피스1",
+            "detailLink": "http://dimatto.com/kr/pc/html/details31.html",
+            "relaitveClass": ".linkedDetail01",                
+            "detailImg": {
+                "main": "/details/01/dmt-shop-big-1",
+                "sub1": "/details/01/dmt-shop-big-2",
+                "sub2": "/details/01/dmt-shop-big-3",
+                "sub3": "/details/01/dmt-shop-big-4"
+            }
+        },
+        {
+            "detailHead": "쉬폰 포인트 플라워 원피스2",
+            "detailLink": "http://dimatto.com/kr/pc/html/details32.html",
+            "relaitveClass": ".linkedDetail02",                
+            "detailImg": {
+                "main": "/details/02/dmt-shop-big-1",
+                "sub1": "/details/02/dmt-shop-big-2",
+                "sub2": "/details/02/dmt-shop-big-3",
+                "sub3": "/details/02/dmt-shop-big-4"
+            }
+        },
+        {
+            "detailHead": "쉬폰 포인트 플라워 원피스3",
+            "detailLink": "http://dimatto.com/kr/pc/html/details33.html",
+            "relaitveClass": ".linkedDetail03",                
+            "detailImg": {
+                "main": "/details/03/dmt-shop-big-1",
+                "sub1": "/details/03/dmt-shop-big-2",
+                "sub2": "/details/03/dmt-shop-big-3",
+                "sub3": "/details/03/dmt-shop-big-4"
+            }
+        },
+        {
+            "detailHead": "쉬폰 포인트 플라워 원피스4",
+            "detailLink": "http://dimatto.com/kr/pc/html/details34.html",
+            "relaitveClass": ".linkedDetail04",                
+            "detailImg": {
+                "main": "/details/04/dmt-shop-big-1",
+                "sub1": "/details/04/dmt-shop-big-2",
+                "sub2": "/details/04/dmt-shop-big-3",
+                "sub3": "/details/04/dmt-shop-big-4"
+            }
+        },
+        {
+            "detailHead": "쉬폰 포인트 플라워 원피스5",
+            "detailLink": "http://dimatto.com/kr/pc/html/details35.html",
+            "relaitveClass": ".linkedDetail05",                
+            "detailImg": {
+                "main": "/details/05/dmt-shop-big-1",
+                "sub1": "/details/05/dmt-shop-big-2",
+                "sub2": "/details/05/dmt-shop-big-3",
+                "sub3": "/details/05/dmt-shop-big-4"
+            }
+        },
+         {
+            "detailHead": "쉬폰 포인트 플라워 원피스6",
+            "detailLink": "http://dimatto.com/kr/pc/html/details36.html",
+            "relaitveClass": ".linkedDetail06",                
+            "detailImg": {
+                "main": "/details/06/dmt-shop-big-1",
+                "sub1": "/details/06/dmt-shop-big-2",
+                "sub2": "/details/06/dmt-shop-big-3",
+                "sub3": "/details/06/dmt-shop-big-4"
+            }
+        }
+    ]
+}
